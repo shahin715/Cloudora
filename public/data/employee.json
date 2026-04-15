@@ -1,0 +1,26 @@
+{
+  "title": "Employee Motivation",
+  "employees": [
+    {
+      "name": "Shaima",
+      "role": "Executive Officer",
+      "team": "Team Genesis",
+      "image": "/emp1.jpg",
+      "quote": "Working at Cloudora has been an empowering experience. The inclusive environment and supportive leadership make me feel valued and respected."
+    },
+    {
+      "name": "Prity Kusum Chakma",
+      "role": "Senior Executive Officer",
+      "team": "Team Optimum",
+      "image": "/emp2.jpg",
+      "quote": "The team spirit and positive environment make every day enjoyable. I feel motivated and inspired to grow here."
+    },
+    {
+      "name": "Md. Kamruzzaman",
+      "role": "Senior Manager",
+      "team": "Sales",
+      "image": "/emp3.jpg",
+      "quote": "Our people are our greatest strength. Collaboration and innovation are at the heart of everything we do."
+    }
+  ]
+}

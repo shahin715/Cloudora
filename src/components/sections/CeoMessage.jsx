@@ -17,19 +17,12 @@ export default function CeoMessage() {
   return (
     <section className="px-6 md:px-20 py-24 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-
         <div
           className="bg-white rounded-3xl shadow-md hover:shadow-2xl transition duration-500 overflow-hidden"
           data-aos="fade-up"
         >
-
           <div className="grid md:grid-cols-2 items-stretch">
-
-            {/* 🔥 IMAGE SIDE (BIG) */}
-            <div
-              className="relative h-87.5 md:h-auto"
-              data-aos="fade-right"
-            >
+            <div className="relative h-87.5 md:h-auto" data-aos="fade-right">
               <Image
                 src={data.image}
                 alt="CEO"
@@ -42,12 +35,11 @@ export default function CeoMessage() {
               <div className="absolute inset-0 bg-linear-to-t from-black/40 to-transparent"></div>
             </div>
 
-            {/* 🔥 CONTENT SIDE */}
+            {/*  CONTENT SIDE */}
             <div
               className="p-8 md:p-12 flex flex-col justify-center"
               data-aos="fade-left"
             >
-
               {/* Name */}
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
                 {data.name}
@@ -66,20 +58,12 @@ export default function CeoMessage() {
 
               {/* Signature */}
               <div className="mt-8">
-                <p className="font-semibold text-gray-900">
-                  {data.name}
-                </p>
-                <p className="text-sm text-gray-500">
-                  {data.designation}
-                </p>
+                <p className="font-semibold text-gray-900">{data.name}</p>
+                <p className="text-sm text-gray-500">{data.designation}</p>
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
     </section>
   );

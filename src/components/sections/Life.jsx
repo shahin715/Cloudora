@@ -16,12 +16,8 @@ export default function Life() {
   return (
     <section className="px-6 md:px-20 py-20 bg-gray-50">
       <div className="max-w-5xl mx-auto">
-
         {/* Intro */}
-        <div
-          className="text-center mb-12"
-          data-aos="fade-up"
-        >
+        <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             {data.title}
           </h2>
@@ -74,7 +70,6 @@ export default function Life() {
             ))}
           </ul>
         </div>
-
       </div>
     </section>
   );

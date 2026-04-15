@@ -32,12 +32,11 @@ export default function WhatWeDo() {
   if (!data) return null;
 
   return (
-  <section
-  id="what-we-do"
-  className="scroll-mt-24 px-6 md:px-20 py-16 bg-linear-to-b from-gray-50 to-white"
->
+    <section
+      id="what-we-do"
+      className="scroll-mt-24 px-6 md:px-20 py-16 bg-linear-to-b from-gray-50 to-white"
+    >
       <div className="max-w-6xl mx-auto">
-
         {/* HEADER */}
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -51,13 +50,11 @@ export default function WhatWeDo() {
 
         {/* GRID */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-
           {data.services.map((item, index) => {
             const Icon = iconMap[item.icon];
 
             return (
               <Link key={index} href={item.link || "/"}>
-
                 <div
                   data-aos="fade-up"
                   data-aos-delay={index * 100}
@@ -73,12 +70,12 @@ export default function WhatWeDo() {
                     overflow-hidden
                   "
                 >
-
                   {/* HOVER OVERLAY */}
                   <div className="absolute inset-0 bg-[#22C1DC]/5 opacity-0 group-hover:opacity-100 transition rounded-2xl"></div>
 
                   {/* ICON */}
-                  <div className="
+                  <div
+                    className="
                     w-12 h-12 flex items-center justify-center
                     rounded-xl bg-[#22C1DC]/10
                     text-[#22C1DC]
@@ -86,7 +83,8 @@ export default function WhatWeDo() {
                     group-hover:bg-[#22C1DC]
                     group-hover:text-white
                     transition
-                  ">
+                  "
+                  >
                     <Icon size={22} />
                   </div>
 
@@ -100,19 +98,15 @@ export default function WhatWeDo() {
                     {item.desc}
                   </p>
 
-                  {/* ARROW (premium feel) */}
+                  {/* ARROW ) */}
                   <span className="inline-block mt-4 text-sm text-[#22C1DC] opacity-0 group-hover:opacity-100 transition">
                     Learn More →
                   </span>
-
                 </div>
-
               </Link>
             );
           })}
-
         </div>
-
       </div>
     </section>
   );

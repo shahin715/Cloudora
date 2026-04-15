@@ -5,7 +5,6 @@ import Image from "next/image";
 export default function LifeHero() {
   return (
     <div className="relative h-[60vh] w-full">
-
       {/* Background Image */}
       <Image
         src="/bpo.jpg"
@@ -16,12 +15,11 @@ export default function LifeHero() {
         className="object-cover"
       />
 
-      {/* Gradient Overlay (improved) */}
+      {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-linear-to-r from-[#0B1B2B]/90 via-[#0B1B2B]/60 to-[#0B1B2B]/20"></div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-
         {/* Title */}
         <h1
           data-aos="fade-up"
@@ -39,7 +37,6 @@ export default function LifeHero() {
         >
           A place where people grow, collaborate, and enjoy meaningful work
         </p>
-
       </div>
     </div>
   );

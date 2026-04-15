@@ -18,20 +18,19 @@ export default function Career() {
   return (
     <section className="px-60000 md:px-20 py-14 bg-linear-to-b from-gray-50 to-white">
       <div className="max-w-6xl mx-auto">
-
         {/* Wrapper Card */}
-        <div className="
+        <div
+          className="
           grid md:grid-cols-2 gap-12 items-center
           bg-white/70 backdrop-blur-md
           border border-gray-100
           rounded-3xl p-8 md:p-12
           shadow-lg hover:shadow-2xl
           transition duration-500
-        ">
-
+        "
+        >
           {/* LEFT */}
           <div data-aos="fade-right">
-
             {/* Badge */}
             <span className="inline-block bg-[#22C1DC]/10 text-[#22C1DC] text-sm px-4 py-1 rounded-full mb-4">
               {data.badge}
@@ -66,36 +65,33 @@ export default function Career() {
               ))}
             </div>
 
-            {/* CTA (🔥 upgrade) */}
+            {/* CTA */}
             <button className="mt-8 bg-[#22C1DC] text-white px-6 py-3 rounded-full font-semibold hover:opacity-90 transition">
               Join Our Team →
             </button>
-
           </div>
 
           {/* RIGHT IMAGE */}
-         <div
-  className="group relative h-80 md:h-105 rounded-2xl overflow-hidden"
-  data-aos="fade-left"
->
-  <Image
-    src={data.image}
-    alt="career"
-    fill
-    sizes="(max-width: 768px) 100vw, 50vw"
-    className="
+          <div
+            className="group relative h-80 md:h-105 rounded-2xl overflow-hidden"
+            data-aos="fade-left"
+          >
+            <Image
+              src={data.image}
+              alt="career"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="
       object-cover
       transition duration-700 ease-out
       group-hover:scale-110 group-hover:rotate-1
     "
-  />
+            />
 
-  {/* Gradient overlay */}
-  <div className="absolute inset-0 bg-linear-to-t from-black/30 to-transparent"></div>
-</div>
-
+            {/* Gradient overlay */}
+            <div className="absolute inset-0 bg-linear-to-t from-black/30 to-transparent"></div>
+          </div>
         </div>
-
       </div>
     </section>
   );

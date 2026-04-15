@@ -5,7 +5,6 @@ import Image from "next/image";
 export default function CeoHero() {
   return (
     <div className="relative h-[50vh] w-full">
-
       {/* Background Image */}
       <Image
         src="/bpo.jpg"
@@ -21,7 +20,6 @@ export default function CeoHero() {
 
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center h-full text-center">
-
         <h1
           data-aos="fade-up"
           data-aos-delay="200"
@@ -29,7 +27,6 @@ export default function CeoHero() {
         >
           CEO’s Message
         </h1>
-
       </div>
     </div>
   );

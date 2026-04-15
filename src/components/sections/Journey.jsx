@@ -17,9 +17,7 @@ export default function Journey() {
   return (
     <section className="px-6 md:px-20 py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-
         <div className="grid md:grid-cols-2 gap-10 items-stretch">
-
           {/* Image */}
           <div
             className="relative h-75 md:h-auto rounded-2xl overflow-hidden group cursor-pointer"
@@ -59,9 +57,7 @@ export default function Journey() {
               ))}
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
   );
