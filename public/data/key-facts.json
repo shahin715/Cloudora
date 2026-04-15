@@ -1,0 +1,24 @@
+{
+  "title": "Key Facts",
+  "subtitle": "Our commitment to excellence drives everything we do.",
+
+  "stats": [
+    {
+      "number": "16+",
+      "label": "Years of Experience"
+    },
+    {
+      "number": "500+",
+      "label": "Employees"
+    },
+    {
+      "number": "52",
+      "label": "Certifications"
+    }
+  ],
+
+  "highlight": {
+    "number": "50+",
+    "label": "Active Clients"
+  }
+}

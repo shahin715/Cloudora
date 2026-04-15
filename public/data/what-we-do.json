@@ -1,0 +1,42 @@
+{
+  "title": "What We Do",
+  "subtitle": "We deliver specialized business process and technology solutions to help organizations operate efficiently and scale faster.",
+  "services": [
+    {
+      "title": "New Business",
+      "desc": "Seamless onboarding and setup for new clients.",
+      "icon": "briefcase",
+      "link": "/bpo-services"
+    },
+    {
+      "title": "Plan Design & Documentation",
+      "desc": "Structured and compliant plan documentation.",
+      "icon": "file-text",
+      "link": "/bpo-services"
+    },
+    {
+      "title": "Recordkeeping",
+      "desc": "Accurate and secure data management solutions.",
+      "icon": "database",
+      "link": "/bpo-services"
+    },
+    {
+      "title": "Distributions",
+      "desc": "Efficient handling of withdrawals and transactions.",
+      "icon": "send",
+      "link": "/bpo-services"
+    },
+    {
+      "title": "Compliance & Reporting",
+      "desc": "Ensuring regulatory compliance and reporting accuracy.",
+      "icon": "shield-check",
+      "link": "/bpo-services"
+    },
+    {
+      "title": "Tax Services",
+      "desc": "Reliable tax-related processing and support.",
+      "icon": "calculator",
+      "link": "/bpo-services"
+    }
+  ]
+}
