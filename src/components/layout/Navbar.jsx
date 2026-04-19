@@ -146,9 +146,11 @@ export default function Navbar() {
       </div>
 
       {/* BUTTON */}
-      <button className="hidden md:block bg-white text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-[#22C1DC] hover:text-white transition">
-        Contact Us →
-      </button>
+      <Link href="/contact">
+        <button className="hidden md:block bg-white text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-[#22C1DC] hover:text-white transition">
+          Contact Us →
+        </button>
+      </Link>
 
       {/* MOBILE MENU */}
       <div
