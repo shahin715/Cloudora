@@ -53,7 +53,7 @@ export default function BpoPage() {
   return (
     <div>
 
-      {/* 🔥 HERO SECTION */}
+      {/*  HERO SECTION */}
       <div className="relative h-[50vh] w-full">
 
         <Image
@@ -84,7 +84,7 @@ export default function BpoPage() {
         </div>
       </div>
 
-      {/* 🔥 CONTENT SECTION */}
+      {/*  CONTENT SECTION */}
       <section className="px-6 md:px-20 py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto">
 

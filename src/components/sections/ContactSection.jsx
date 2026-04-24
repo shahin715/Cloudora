@@ -59,7 +59,6 @@ export default function ContactSection() {
       return;
     }
 
-    // ✅ success (fake submit)
     alert("Message sent successfully!");
 
     setForm({

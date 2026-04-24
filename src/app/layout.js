@@ -1,12 +1,10 @@
 "use client";
-
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-
+import ScrollToTop from "@/components/ui/ScrollToTop";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
@@ -21,10 +19,8 @@ export default function RootLayout({ children }) {
     <html>
       <body>
         <Navbar />
-
         {children}
-
-       
+        <ScrollToTop />
         <Footer />
       </body>
     </html>

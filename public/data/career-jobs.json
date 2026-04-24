@@ -1,0 +1,21 @@
+{
+  "title": "Open Opportunities",
+  "subtitle": "Join a team where your ideas matter and your growth is supported.",
+
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer Internship",
+      "type": "Internship",
+      "location": "Dhaka",
+      "tag": "Remote Friendly"
+    },
+    {
+      "id": 2,
+      "title": "Junior Software Engineer",
+      "type": "Full Time",
+      "location": "Remote",
+      "tag": "Immediate Hiring"
+    }
+  ]
+}

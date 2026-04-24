@@ -111,38 +111,21 @@ export default function Navbar() {
         </div>
 
         {/* NEWS */}
-        <div className="relative group">
-          <p className="cursor-pointer hover:text-blue-400">News & Events ▾</p>
-
-          <div className="absolute top-full left-0 h-3 w-full"></div>
-
-          <div
-            className="
-            absolute top-full left-0 mt-2
-            bg-white text-black rounded-md shadow-lg
-            opacity-0 invisible
-            group-hover:opacity-100 group-hover:visible
-            transition-all duration-200
-            min-w-44
-          "
-          >
-            <p className="px-4 py-2 hover:text-blue-500 cursor-pointer">
-              Certifications
-            </p>
-            <p className="px-4 py-2 hover:text-blue-500 cursor-pointer">
-              Collaborations
-            </p>
-            <p className="px-4 py-2 hover:text-blue-500 cursor-pointer">
-              Events
-            </p>
-          </div>
-        </div>
+       <div>
+         <Link href="/news">
+          <p className="cursor-pointer hover:text-blue-400">News & Events</p>
+        </Link>
+     
+       </div>
+         
 
         <Link href="/life-at-cloudora">
           <p className="cursor-pointer hover:text-blue-400">Life at Cloudora</p>
         </Link>
 
-        <p className="cursor-pointer hover:text-blue-400">Career</p>
+       <Link href="/career">
+          <p className="cursor-pointer hover:text-blue-400">Career</p>
+        </Link>
       </div>
 
       {/* BUTTON */}

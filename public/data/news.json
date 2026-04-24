@@ -1,0 +1,26 @@
+{
+  "title": "News & Events",
+  "items": [
+    {
+      "id": 1,
+      "title": "Cloudora Achieves Major Milestone",
+      "date": "March 2026",
+      "category": "News",
+      "image": "/news1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Annual Team Celebration 2026",
+      "date": "February 2026",
+      "category": "Event",
+      "image": "/news3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "New Office Expansion",
+      "date": "January 2026",
+      "category": "News",
+      "image": "/news2.jpg"
+    }
+  ]
+}
